@@ -32,6 +32,7 @@ Widget::Widget(QWidget *parent) : QWidget(parent){
     button[15] -> hide(); resize(200, 320); setLayout(layout);
     QWidget::setWindowFlags(Qt::MSWindowsFixedSizeDialogHint);
 }
+
 Widget::~Widget(){
 
 }
